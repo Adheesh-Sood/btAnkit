@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=Pacifico&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet&display=swap');
+
+::selection{
+    background-color: #1a1aa1 !important;
+    color:#fff !important;
+}
+body{
+    background-color: #fff;
+}
+#title{
+    font-family: "Azeret Mono", monospace;
+    font-weight: bolder;
+    font-size:60px;
+    color:#1a1aa1;
+}
+bt{
+    font-family: "Azeret Mono", monospace;
+    font-size:60px;
+    background:linear-gradient(to right, #F7DC6F, #ffbf00); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* For WebKit browsers (Chrome, Safari) */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+}
+h2{
+    font-weight: bolder;
+    font-size:40px !important;
+    color:#1a1aa1;
+
+}
+/* .maainInpDiv{
+    border:2px solid #000;
+    background:linear-gradient(to right, #ffbf00, #d6181f);
+} */
+time , date { 
+    font-family: "Azeret Mono", monospace;
+    font-size:45;
+    background:linear-gradient(to right, #F7DC6F, #ffbf00); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* For WebKit browsers (Chrome, Safari) */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+}
+/* input{
+    font-size:27px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: transparent;
+    /* border:none; */
+    /* color:#ffbf00;
+    border:1px solid #1a1aa1;
+} */ 
+
+
+select{
+    font-size:20px;
+    background-color: transparent;
+    border:none;
+    font-family: "Azeret Mono", monospace;
+}
+.maainInpDiv {
+    background-color: #fff;
+    background-size: 600% 600%;
+    animation: gradient 10s ease infinite;
+    border-radius: 8px;
+}
+
+input:-webkit-autofill,
+.consistent-input:-webkit-autofill:hover,
+.consistent-input:-webkit-autofill:focus,
+.consistent-input:-webkit-autofill:active {
+    display: none;
+}
+select option {
+    background-color: #fff;
+}
+button {
+    transition: ease-in-out 1s;
+    border-style: solid;
+    background-color: transparent;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 50%, transparent 50%);
+    background-position: right bottom;
+    font-size: 27px;
+    border:none;
+    border-radius: 12px;
+    color:#000;
+    border:2px solid #000000;
+
+}
+
+button:hover {
+    background-position: left bottom;
+    font-size: 41;
+    color:rgb(255, 255, 255);
+        
+}
+lord-icon{
+    background-color: transparent !important;
+}
+#qrText{
+    background:linear-gradient(to right, #F7DC6F, #ffbf00); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    font-family: "Azeret Mono", monospace;
+    font-size:45;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* For WebKit browsers (Chrome, Safari) */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+
+
+}
+.gradient-border {
+    position: relative;
+    width: 200px; /* Adjust width as needed */
+    height: 40px;  /* Adjust height as needed */
+}
+
+.gradient-border input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    z-index: 1;
+    position: relative;
+    background: #fff; /* Input background color */
+    border-radius: 8px; /* Adjust border radius as needed */
+    text-align: center;
+    font-size: 27px;
+}
+
+.gradient-border::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    border-radius: 10px; /* Adjust border radius to match the input */
+    z-index: 0;
+}
+#image-logo {
+    max-height: 50px;
+    width: 100px;}
+@media only screen and (max-width: 600px) {
+    #image-logo {
+        width: 100%;
+    }
+}
+#chatResponse{
+    font-family: "Azeret Mono", monospace;
+    font-size:15px;
+}
+.mainCon{
+    background: linear-gradient( blue, white);
+    border-radius: 8px;
+    border:2px solid #000;
+}
+.conTitle{
+    font-family: "Azeret Mono", monospace;
+    font-size:30px;
+    color:#fff;
+
+}
+
+
+.form-container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 1420px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+button {
+    background: linear-gradient(45deg, #1a1aa1, #0056b3);
+    border: none;
+    padding: 25px 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 900;
+    transition: transform 0.2s ease;
+        /* background: linear-gradient(45deg, #007bff, #1a1aa1) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important; */
+    color:#e8e8e8;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #1a1aa1, #003a75);
+    transform: scale(1.1);
+    color:#fff;
+}
+
+input, select {
+    width:1000px;
+    height: 90px;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid #1a1aa1;
+    font-size: 45px;
+    font-weight: 900;
+    transition: border-color 0.3s ease;
+    text-align: center;
+    background-color: #fff;
+    color:#1a1aa1;
+}
+select{
+    width:1000px;
+    height: 90px;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid #1a1aa1;
+    font-size: 20px;
+    font-weight: 900;
+    transition: border-color 0.3s ease;
+    text-align: center;
+
+}
+input:focus, select:focus {
+    border-color: #1a1aa1;
+}
+
+p {
+    font-size: 32px !important; 
+    font-weight: 900 !important;
+    color: #fff !important;
+    /* background: linear-gradient(45deg, #007bff, #1a1aa1) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important; */
+    text-align: center !important;
+    font-weight: bolder !important;
+    font-family: 'Roboto', sans-serif !important;
+ 
+}
+
+.step {
+    display: none;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.step.active {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-around; /* Distributes space around items */
+    align-items: center; /* Vertically centers items in the container */
+}
+.btnD{
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-around; /* Distributes space around items */
+    align-items: center; /* Vertically centers items in the container */
+
+}
+#delItem,#delItems{
+    color: transparent !important;
+    
+}
+#code{
+    font-family: "Azeret Mono", monospace;
+    font-size:80px;
+    background:linear-gradient(to right, #ffffff, #2828c2); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* For WebKit browsers (Chrome, Safari) */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+    text-align: center;
+    justify-content: center;
+}
+.codeOuter{
+    background-color: #151515;
+    background-size: 600% 600%;
+    animation: gradient 10s ease infinite;
+    border-radius: 8px;
+    width: 400px;
+    height: 120px;
+}
+.loader {
+    border: 8px solid transparent; /* Light grey background */
+    border-top: 8px solid #1a1aa1; /* Blue color */
+    border-radius: 50%; /* Make it a circle */
+    width: 100px; /* Width of the circle */
+    height: 100px; /* Height of the circle */
+    animation: spin 1s linear infinite; /* Spin animation */
+    border-right: 8px solid #1a1aa1; /* Light grey background */
+
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

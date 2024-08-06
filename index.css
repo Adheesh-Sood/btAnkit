@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=Pacifico&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
+
+::selection {
+    background-color: #1a1aa1;
+    color: #fff;
+}
+
+
+.mainBanner {
+    width: 100% !important;
+    height: 600px !important;
+
+}
+
+h4 {
+    color: #1a1aa1;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    user-select: none;
+}
+
+.btlogo {
+    width: 80px;
+    height: 80px;
+}
+
+#navCenW {
+    width: fit-content;
+}
+
+/* button {
+    transition: ease-in-out 2s;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #000;
+} */
+.btnStyle{
+    padding-top: 20px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.stats-container {
+    margin-top: 20px;
+}
+
+.stat-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 405;
+}
+
+.stat-box h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.stat-box p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+#navCenW {
+    background-color: #fff !important;
+    /* border: 2px solid #000; */
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    /* Adds shadow for depth */
+    margin: auto;
+    /* Center the navbar */
+    display: block;
+    /* Ensures the navbar is block level for centering */
+}
+
+#navCenB {
+    background-color: #000 !important;
+
+}
+
+.banner-container {
+    position: relative;
+    text-align: center;
+}
+
+.mainBanner {
+    width: 100%;
+    /* Adjust width as needed */
+    height: auto;
+    /* Adjust height as needed */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Ensure centering is accurate */
+    color: #2e4edd;
+    /* Text color */
+    font-size: 24px;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* Optional: makes the text bold */
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+li {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+    /* background-image: url("https://www.beatdiabetes.me/ae/sites/all/themes/bootstrap_beatdiabetes/images/home/faqsnew.jpg"); */
+    background-color: transparent;
+    /* Allows items to wrap in smaller screens */
+}
+
+.stat-item {
+    background-color: #fff;
+    text-align: center;
+    font-size: 20px;
+    /* Default font size */
+    flex: 1 1 200px;
+    /* Flexibility and minimum width */
+    margin: 10px;
+    /* Spacing between items */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    width: 10px !important;
+
+
+
+}
+
+.stat-number {
+    font-size: 50px;
+    /* Default font size for numbers */
+    font-weight: bold;
+    color: #1a1aa1;
+}
+
+/* Responsive adjustments */
+
+
+h2 {
+    font-weight: bolder;
+
+}
+
+h4 {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* .reg {
+    font-size: 40px;
+    background-color: #000;
+    font-family: "LXGW WenKai TC", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 8px;
+    border: 3px solid #000;
+    color: #fff
+    
+} */
+
+p {
+    color: #000;
+    font-size: 30px;
+    font-family: "LXGW WenKai TC", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.slogan {
+    color: #1a1aa1;
+    font-weight: bolder;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+}
+/* button:hover{
+    color:#1a1aa1;
+    background-color: #fff;
+    transition: all 2s ;
+} */
+
+.reg {
+    transition: ease-in-out 1s;
+    border-style: solid;
+    background-color: rgb(22, 56, 226);
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, rgb(215, 102, 102) 50%, #1a1aa1 50%);
+    background-position: right bottom;
+    font-size: 50px;
+    border:none;
+    border-radius: 12px;
+    color:#fff;
+
+}
+
+.reg:hover {
+    background-position: left bottom;
+    font-size: 55px;
+    
+}
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.sponsors-footer {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.sponsors-wrapper {
+    display: flex;
+    width: 100%;
+    animation: scroll 20s linear infinite;
+    height: fit-content;
+
+}
+
+.sponsor {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    white-space: nowrap;
+    height: fit-content;
+    user-select: none;
+}
+
+.sponsor img {
+    height: 100px;
+    margin: 0 15px;
+    width: 100px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Pause animation on hover */
+.sponsors-footer:hover .sponsors-wrapper {
+    animation-play-state: paused;
+}
+h3{
+    font-weight: bolder;
+    font-style: normal;
+    font-family: "Azeret Mono", monospace;
+    font-size:34px;
+    color:#2e4edd
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.containerss{
+    display: flex;        /* Establishes a flex container */
+    align-items: center;  /* Vertically centers the items in the container */
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    gap: 10px;  
+    animation: slideIn 1s forwards; /* Adjust duration as needed */
+    opacity: 0; /* Start with the element hidden */
+    
+    
+    
+
+}
+
+#imgAb{
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 4px;
+}
+
+
+/* Additional inner div to handle content separately if needed */
+.gradient-border .containerss {
+    position: absolute;
+    top: 10px; left: 10px; right: 10px; bottom: 10px; /* Adjust based on padding */
+    background: white; /* Background of the content */
+    border-radius: 8px; /* Slightly less than the parent to maintain the rounded corners */
+    z-index: 1;
+}
+.arrow-down {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; /* Doubled the size for a larger arrow */
+    border-right: 40px solid transparent; /* Doubled the size for a larger arrow */
+    border-top: 80px solid black; /* Doubled the size for a larger arrow */
+    margin: 40px auto; /* Adjusted margin to center the larger arrow */
+    animation: bounce 2s infinite; /* Animation applied here */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px); /* Increased the bounce height for visual effect */
+    }
+    60% {
+        transform: translateY(-15px); /* Increased the bounce height for visual effect */
+    }
+}
+
+
+.custom-box {
+    background-color: #111;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.text-title {
+    background: linear-gradient(90deg, blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size:90px;
+    user-select: none;
+}
+
+.flashcards {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.flashcard {
+    width: 300px;
+    height: 600px;
+    perspective: 1000px;
+    position: relative;
+}
+.back{
+    font-family: "Playwrite IS", cursive;
+
+}
+.flashcard .front, .flashcard .back {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform 0.6s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.flashcard .front {
+    background-color: #fff;
+    color: #000;
+}
+
+.flashcard .back {
+    background-color: transparent;
+    color: #000;
+    transform: rotateY(180deg);
+}
+
+.flashcard.is-flipped .front {
+    transform: rotateY(180deg);
+}
+
+.flashcard.is-flipped .back {
+    transform: rotateY(0deg);
+}
+
+@media (max-width: 767px) {
+    .flashcards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flashcard {
+        width: 70px;
+        height: 140px;
+    }
+}
+#bText , #btText{
+    font-family: 'Roboto', sans-serif !important;
+    color: #fff;
+    font-weight: bolder;
+
+}
+.lastYearTitle{
+    color:#fff;
+    font-family: "Azeret Mono", monospace;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 90px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+
+
+}
+
+.slides img {
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+    user-select: none;
+}
+.slider {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: calc(1600px * 3); /* Adjust based on the number of slides */
+    height: 100%;
+}
+
+.slide {
+    width: 600px;
+    height: 600px;
+}
+
+.nav-arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.nav-arrows .prev, .nav-arrows .next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+svg{
+    width: 400px;
+    height: 400px;
+    fill: #fff;
+}
+br{
+    user-select: none;
+}
+iframe{
+    width: 890px !important;
+    height: 500px !important;
+    border-radius: 8px;
+}
